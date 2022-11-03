@@ -51,6 +51,7 @@ def product_of_elements_of_list(L):
         prod *= L[i]
     return prod
 
+<<<<<<< HEAD
 # function that determines the greatest product of the size adjacent digits        
 def must_bigger_sequence(L, size):
     length = len(L)
@@ -64,3 +65,10 @@ size = 13
 max = must_bigger_sequence(list_of_numbers, size)
 
 print(max)
+=======
+size = 13
+answer_list= must_bigger_sequence(list_of_numbers, size)
+print(answer_list)
+                                  
+print(product_of_elements_of_list(answer_list))
+>>>>>>> f47f7d8429559cb75d971447021cf92ed0029f31
