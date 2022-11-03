@@ -44,27 +44,23 @@ def compare_two_sequences_of_numbers(list1, list2, size):
             break
     return is_bigger
 
-        
-def must_bigger_sequence(L, size):
-    length = len(L)
-    index = 0
-    list_max = L[0:size]
-    for i in range(1, length - size):
-        list2 = L[i:i + size]
-        is_bigger = compare_two_sequences_of_numbers(list_max, list2 , size)
-        if (is_bigger):
-            list_max = list2
-            index = i
-    return list_max
-
+# function to calculate the product of the elements of a list
 def product_of_elements_of_list(L):
     prod = 1
     for i in range(len(L)):
         prod *= L[i]
     return prod
 
-size = 8
-answer_list= must_bigger_sequence(list_of_numbers, size)
-print(answer_list)
-                                  
-print(product_of_elements_of_list(answer_list))
+# function that determines the greatest product of the size adjacent digits        
+def must_bigger_sequence(L, size):
+    length = len(L)
+    max = 0
+    for i in range(length - size):
+        num = product_of_elements_of_list(list_of_numbers[i:i + size])
+        if (num > max): max = num
+    return max
+
+size = 13
+max = must_bigger_sequence(list_of_numbers, size)
+
+print(max)
