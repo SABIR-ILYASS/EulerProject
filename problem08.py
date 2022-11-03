@@ -63,7 +63,7 @@ def product_of_elements_of_list(L):
         prod *= L[i]
     return prod
 
-size = 8
+size = 13
 answer_list= must_bigger_sequence(list_of_numbers, size)
 print(answer_list)
                                   
