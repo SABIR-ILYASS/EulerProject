@@ -43,6 +43,7 @@ def sotring(L):
     L[0] = min
     return [L[0]] + sotring(L[1:])
 
+
 list_sorted = sorted(list_s[:])
 print(list_sorted)
             
