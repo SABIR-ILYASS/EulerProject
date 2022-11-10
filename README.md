@@ -11,6 +11,7 @@
 - [Problem 09](https://projecteuler.net/problem=9)
 - [Problem 10](https://projecteuler.net/problem=10)
 - [Problem 11](https://projecteuler.net/problem=11)
+- [Problem 12](https://projecteuler.net/problem=12)
 - [Problem 13](https://projecteuler.net/problem=13)
 - [Problem 15](https://projecteuler.net/problem=15)
 - [Problem 16](https://projecteuler.net/problem=16)
