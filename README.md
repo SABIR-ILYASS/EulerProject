@@ -17,5 +17,6 @@
 - [Problem 20](https://projecteuler.net/problem=20)
 - [Problem 21](https://projecteuler.net/problem=21)
 - [Problem 22](https://projecteuler.net/problem=22)
+- [Problem 38](https://projecteuler.net/problem=38)
 - [Problem 39](https://projecteuler.net/problem=39)
 - [Problem 41](https://projecteuler.net/problem=41)
