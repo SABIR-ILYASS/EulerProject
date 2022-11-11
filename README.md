@@ -13,6 +13,7 @@
 - [Problem 11](https://projecteuler.net/problem=11)
 - [Problem 12](https://projecteuler.net/problem=12)
 - [Problem 13](https://projecteuler.net/problem=13)
+- [Problem 14](https://projecteuler.net/problem=14)
 - [Problem 15](https://projecteuler.net/problem=15)
 - [Problem 16](https://projecteuler.net/problem=16)
 - [Problem 20](https://projecteuler.net/problem=20)
