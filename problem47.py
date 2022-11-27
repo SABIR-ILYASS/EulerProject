@@ -6,8 +6,7 @@ def first_divisor(n):
         return 1
     for i in range(2,n+1):
         if n%i == 0:
-            break
-    return i
+            return i
 
 #the function removes repeated numbers in a given list
 def no_repeat(l):
