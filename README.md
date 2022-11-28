@@ -1,3 +1,5 @@
+<img style="float: left" width="400" height="100%" alt="EulerProject"  src="https://projecteuler.net/themes/logo_default.png">
+
 # Project Euler
 
 - [Problem 01](https://projecteuler.net/problem=1)
