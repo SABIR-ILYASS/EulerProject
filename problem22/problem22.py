@@ -2,7 +2,7 @@
 f = open("p022_names.txt", "r")
 s = f.read()
 s = s.replace('"',"")
-list_s =  s.split(",")
+list_s =    
 
 # data traitment
 data =["A", "B", "C", "D", "E",	"F", "G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
